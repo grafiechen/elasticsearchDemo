@@ -10,6 +10,8 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**
+ * 测试使用的user类
+ *
  * @author grafie
  * @date 2020年7月1日 17点00分
  */

@@ -8,6 +8,9 @@ import org.springframework.data.elasticsearch.client.ClientConfiguration;
 import org.springframework.data.elasticsearch.client.RestClients;
 import org.springframework.data.elasticsearch.config.AbstractElasticsearchConfiguration;
 
+/**
+ * 配置 RestHighLevelClient {@link RestHighLevelClient},和要访问的es地址
+ */
 @Configuration
 public class EsConfig extends AbstractElasticsearchConfiguration {
     @Value("${my.elastacsearch.hostAddress}")
