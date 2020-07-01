@@ -1,13 +1,13 @@
-package persion.grafie.demo.elasticsearch;
+package com.example.esstudy.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ElasticsearchDemoApplication {
+public class DemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ElasticsearchDemoApplication.class, args);
+        SpringApplication.run(DemoApplication.class, args);
     }
 
 }

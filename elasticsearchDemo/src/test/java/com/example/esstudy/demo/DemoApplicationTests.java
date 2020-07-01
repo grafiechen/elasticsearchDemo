@@ -1,10 +1,10 @@
-package persion.grafie.demo.elasticsearch;
+package com.example.esstudy.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ElasticsearchDemoApplicationTests {
+class DemoApplicationTests {
 
     @Test
     void contextLoads() {
